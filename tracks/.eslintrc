@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "@cbryant24/eslint-config"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "import/prefer-default-export": "warn",
+    "no-use-before-define": ["error", { "variables": false }],
+    "import/no-extraneous-dependencies": "off",
+    "no-plusplus": "off",
+    "no-underscore-dangle": "off",
+    "no-param-reassign": "off"
+  }
+}
